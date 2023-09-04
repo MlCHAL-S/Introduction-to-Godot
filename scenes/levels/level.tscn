@@ -11,6 +11,6 @@ texture = ExtResource("1_db5ib")
 region_enabled = true
 region_rect = Rect2(-121, -46.5, 228, 152)
 
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(862, 335)
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(362, 135)
 texture = ExtResource("2_b3ld4")
