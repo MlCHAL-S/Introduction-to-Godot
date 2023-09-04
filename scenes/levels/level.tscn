@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpfoa6c2306qg"]
+
+[ext_resource type="Texture2D" uid="uid://ci0pn4gdeaagb" path="res://icon.svg" id="1_db5ib"]
+[ext_resource type="Texture2D" uid="uid://bxqv253feh3mp" path="res://graphics/car/main.png" id="2_b3ld4"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(500, 200)
+texture = ExtResource("1_db5ib")
+region_enabled = true
+region_rect = Rect2(-121, -46.5, 228, 152)
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(862, 335)
+texture = ExtResource("2_b3ld4")
